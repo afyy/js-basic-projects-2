@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>about</h2>
+        <p>Traditional Cappadocian houses and dovecotes carved into 
+          caves reflect the uniqueness of the region. These houses 
+          have been constructed on hillsides by using rocks mainly 
+          in the 19th century.</p>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./cappadocia.jpg" alt="about">
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">history</button>
+            <button class="tab-btn" data-id="vision">vision</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+          </div>
+          <article class="about-content">
+            <!-- single item -->
+            <div class="content active" id="history">
+              <h4>history</h4>
+              <!-- history -->
+              <p>
+                Cappadocia region was formed 60 million years ago by erosion of soft 
+                layers of lava and ash from Mount Erciyes (Argeus), Mount Hasan and 
+                Mount Güllü composing with wind and rain over millions of years.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="vision">
+              <h4>vision</h4>
+              <!-- vision -->
+              <p>
+                Our vision is to increase the number of tourists coming to Cappadocia 
+                every year. In this way, significantly increasing the amount of cash 
+                entering the country and the city.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="goals">
+              <h4>goals</h4>
+              <p>
+                Our main goal is to restore the sights of the city and attract more 
+                tourists. For this reason, our aim is to advertise for the development 
+                of every touristic place in Nevsehir.
+              </p>
+            </div>
+            <!-- end of single item -->
+          </article>
+        </article>
+        
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
